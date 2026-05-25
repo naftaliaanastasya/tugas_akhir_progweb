@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+    <title>Anata Salon</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-0">
+      <div class="container">
+        <!-- LOGO -->
+        <a class="navbar-brand fw-bold" href="index.html" style="color: #5b5656; font-size: 40px"> anata </a>
+
+        <!-- BUTTON MOBILE -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- MENU -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" style="color: #5b5656"> Home </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="layanan/" style="color: #5b5656"> Layanan </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="booking/" style="color: #5b5656"> Booking </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="riwayat/" style="color: #5b5656"> Riwayat </a>
+            </li>
+          </ul>
+
+          <!-- LOGIN -->
+          <div class="d-flex align-items-center">
+            <i class="bi bi-person" style="font-size: 30px; color: #5b5656"> </i>
+
+            <a href="loginregis/" class="text-decoration-none ms-2" style="color: #5b5656"> Loginregis </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- AKHIR NAVBAR -->
+
+    <!-- GAMBAR CAROUSEL -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="assets/carousel1.png" class="d-block w-100" alt="..." style="max-height: 500px; width: 100%; object-fit: cover" />
+          <div class="carousel-caption d-none d-md-block"></div>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <img src="assets/carousel2.png" class="d-block w-100" alt="..." style="max-height: 500px; width: 100%; object-fit: cover; object-position: center top" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="color: white">RELAX & REFRESH</h5>
+            <p style="color: white">Manjakan diri Anda dengan perawatan terbaik dari kami.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/carousel3.png" class="d-block w-100" alt="..." style="max-height: 500px; width: 100%; object-fit: cover" />
+          <div class="carousel-caption d-none d-md-block"></div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- AKHIR CAROUSEL -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
